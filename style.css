@@ -5,10 +5,13 @@ max-width width width
 */ 
 * {
 /* change le box model */
+box-sizing: border-box;
 }
 img {
   /* image responsive, largeur maxi */
+  max-width: 100%;
   /* hauteur "auto" */
+  height: auto;
 }
 .carrousel_parent-ecrans {
   /* aligne horizontalement les enfants */
