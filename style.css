@@ -19,6 +19,7 @@ img {
   /* largeur du parent */
   width: 100%;
   overflow-x: scroll;
+  scroll-behavior: smooth;
 }
 .carrousel_ecran {
   /* largeur du parent pour chaque enfant */
