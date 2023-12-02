@@ -76,6 +76,7 @@ justify-content list-style margin none padding
     padding: 0; /* enlève les padding par défaut */
     list-style-type: none; /* enlève les puces par défaut */
     gap: 1rem; /* espace entre les enfants */
+    flex-wrap: wrap;
   }
 
 a.caroussel_lien.actif {
