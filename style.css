@@ -22,7 +22,9 @@ img {
 }
 .carrousel_ecran {
   /* largeur du parent pour chaque enfant */
+  width: 100%;
   /* permet de garder toute la largeur du parent */
+  flex: none;
 }
 .carrousel_ecran figure {
   /* enlève les marges par défaut */
