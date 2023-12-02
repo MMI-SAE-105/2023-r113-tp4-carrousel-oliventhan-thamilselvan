@@ -72,6 +72,6 @@ justify-content list-style margin none padding
   justify-content: center; /* centre horizontalement les enfants */
   margin: 0; /* enlève les marges par défaut */
   padding: 0; /* enlève les padding par défaut */
-  : ; /* enlève les puces par défaut */
+  list-style-type: none; /* enlève les puces par défaut */
   : ; /* espace entre les enfants */
 }
