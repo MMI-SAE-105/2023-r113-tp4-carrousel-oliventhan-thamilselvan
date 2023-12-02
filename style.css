@@ -69,14 +69,14 @@ img {
 0 0 1rem display center flex gap 
 justify-content list-style margin none padding
 */
-.carroussel_liste-liens {
-  display: flex; /* aligne horizontalement les enfants */
-  justify-content: center; /* centre horizontalement les enfants */
-  margin: 0; /* enlève les marges par défaut */
-  padding: 0; /* enlève les padding par défaut */
-  list-style-type: none; /* enlève les puces par défaut */
-  gap: 1rem; /* espace entre les enfants */
-}
+.caroussel_liste-liens {
+    display: flex; /* aligne horizontalement les enfants */
+    justify-content: center; /* centre horizontalement les enfants */
+    margin: 0; /* enlève les marges par défaut */
+    padding: 0; /* enlève les padding par défaut */
+    list-style-type: none; /* enlève les puces par défaut */
+    gap: 1rem; /* espace entre les enfants */
+  }
 
 a.caroussel_lien.actif {
     /* couleur du texte */
