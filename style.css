@@ -73,5 +73,5 @@ justify-content list-style margin none padding
   margin: 0; /* enlève les marges par défaut */
   padding: 0; /* enlève les padding par défaut */
   list-style-type: none; /* enlève les puces par défaut */
-  : ; /* espace entre les enfants */
+  gap: 1rem; /* espace entre les enfants */
 }
