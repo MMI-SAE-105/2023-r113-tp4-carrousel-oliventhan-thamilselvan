@@ -121,5 +121,12 @@ figcaption {
 text-align: center;
 }
 
+figure {
+  border: 1px solid black;
+  max-width: 500px;
+}
 
+h1 {
+  text-align: center;
+}
 
