@@ -27,6 +27,7 @@ img {
   width: 100%;
   /* permet de garder toute la largeur du parent */
   flex: none;
+  scroll-snap-align: start;
 }
 .carrousel_ecran figure {
   /* enlève les marges par défaut */
