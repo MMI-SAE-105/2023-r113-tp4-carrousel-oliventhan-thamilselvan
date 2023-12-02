@@ -117,5 +117,9 @@ justify-content list-style margin none padding
   max-width: 500px;
 }
 
+figcaption {
+text-align: center;
+}
+
 
 
