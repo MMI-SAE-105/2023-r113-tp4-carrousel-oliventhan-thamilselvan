@@ -18,7 +18,7 @@ img {
   display: flex;
   /* largeur du parent */
   width: 100%;
-
+  overflow-x: scroll;
 }
 .carrousel_ecran {
   /* largeur du parent pour chaque enfant */
