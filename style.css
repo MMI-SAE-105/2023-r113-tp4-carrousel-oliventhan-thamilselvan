@@ -6,6 +6,8 @@ max-width width width
 * {
 /* change le box model */
 box-sizing: border-box;
+
+
 }
 img {
   /* image responsive, largeur maxi */
@@ -74,4 +76,11 @@ justify-content list-style margin none padding
   padding: 0; /* enlève les padding par défaut */
   list-style-type: none; /* enlève les puces par défaut */
   gap: 1rem; /* espace entre les enfants */
+}
+
+a.caroussel_lien.actif {
+    /* couleur du texte */
+    color: white;
+    /* couleur du fond */
+    background-color: goldenrod;
 }
