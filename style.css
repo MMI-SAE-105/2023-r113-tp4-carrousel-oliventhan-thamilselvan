@@ -70,7 +70,7 @@ justify-content list-style margin none padding
 .carroussel_liste-liens {
   display: flex; /* aligne horizontalement les enfants */
   justify-content: center; /* centre horizontalement les enfants */
-  : ; /* enlève les marges par défaut */
+  margin: 0; /* enlève les marges par défaut */
   : ; /* enlève les padding par défaut */
   : ; /* enlève les puces par défaut */
   : ; /* espace entre les enfants */
