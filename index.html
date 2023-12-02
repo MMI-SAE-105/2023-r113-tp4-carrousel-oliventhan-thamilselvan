@@ -9,7 +9,14 @@
 </head>
 <body>
     <div class="carrousel" x-data="{hrefCourant: '#ecran-1'}">
-        <button @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth" class="carrousel_btn carrousel_btn-avant" aria-label="slide précedant"><</button><button @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth" class="carrousel_btn carrousel_btn-apres" aria-label="slide suivant">></button>
+        <button class="carrousel_btn carrousel_btn-avant" aria-label="slideprécedant"
+            @click="$refs.parent.scrollLeft-=$refs.parent.clientWidth">
+            &lt;
+        </button>
+        <button class="carrousel_btn carrousel_btn-apres" aria-label="slidesuivant"
+            @click="$refs.parent.scrollLeft+=$refs.parent.clientWidth">
+            >
+        </button>
         <div class="carrousel_parent-ecrans" x-ref="parent">
             <div id="ecran-1" class="carrousel_ecran">
                 <figure>
@@ -43,7 +50,7 @@
             </div>
         </div>
         <ul class="caroussel_liste-liens">
-            <li><a href="#ecran-1" class="caroussel_lien">ecran 1</a></li>
+            <li><a href="#ecran-1" :class="{actif:hrefCourant==='#ecran-1'}" class="caroussel_lien">ecran 1</a></li>
             <li><a href="#ecran-2" class="caroussel_lien">ecran 2</a></li>
             <li><a href="#ecran-3" class="caroussel_lien">ecran 3</a></li>
             <li><a href="#ecran-4" class="caroussel_lien">ecran 4</a></li>
