@@ -2,4 +2,5 @@
 - Nom : Thamilselvan
 - Prénom : Oliventhan
 - URL public : profound-cendol-12f57b.netlify.app
+- URL public personalisé : carrousel.thamilselvan.fr
 
