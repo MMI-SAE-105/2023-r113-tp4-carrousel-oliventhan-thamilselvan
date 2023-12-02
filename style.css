@@ -28,4 +28,5 @@ img {
 }
 .carrousel_ecran figure {
   /* enlève les marges par défaut */
+  margin: 0;
 }
